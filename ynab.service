@@ -1,0 +1,8 @@
+[Unit]
+Description=ynab-mon updater
+
+[Service]
+ExecStart=/usr/bin/python2 /home/eino/ynab-mon/main.py
+
+[Install]
+WantedBy=multi-user.target
